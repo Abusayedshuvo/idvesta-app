@@ -44,6 +44,9 @@
 .card-one ul li a.log-out {
   color: #e66666;
 }
+.card-one ul li a p {
+  margin-bottom: 0;
+}
 
 .card-one .shape {
   width: 253px;

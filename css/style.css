@@ -19,7 +19,7 @@ main {
   padding-bottom: 40px;
   border-radius: 26px;
   min-height: 95vh;
-  position: relative; 
+  position: relative;
   background-image: url(../images/bg.jpeg);
   background-size: cover;
   background-position: top;
@@ -187,6 +187,10 @@ footer a {
   color: #c1c4cc;
 }
 
+.text-light3 {
+  color: #dfe0e4;
+}
+
 .relative {
   position: relative;
 }
@@ -217,4 +221,10 @@ footer a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 12px;
+}
+
+.user {
+  width: 44px;
+  height: 44px;
+  border-radius: 44px;
 }
