@@ -1,0 +1,72 @@
+.bri {
+  background-color: #ffffff1a;
+  border-radius: 24px;
+  width: 48px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  display: inline-block;
+}
+
+.depo-card .badge {
+  background: #ffffff17;
+  border-radius: 50px;
+  border: 0.3px solid #0d7f4129;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 12px;
+  line-height: 100%;
+}
+
+.depo-card .badge.success {
+  color: #2acd74;
+}
+
+.depo-card .badge.process {
+  color: #e9bf44;
+}
+
+.deposit-list .nav-tabs {
+  border: 0;
+  margin-bottom: 36px;
+}
+
+.deposit-list .nav-tabs li button {
+  background-color: #ffffff24;
+  border-radius: 10px;
+  padding: 8px;
+  color: #ebecef;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  height: 38px;
+  min-width: 90px;
+  border: 0;
+}
+.deposit-list .nav-tabs li {
+  margin-right: 8px;
+}
+
+.nav-tabs .nav-link.active {
+  background: linear-gradient(90deg, #2f91ff 0%, #2580e6 100%);
+  color: #ffffff;
+}
+
+.btn-contact {
+  background-color: #2b8fff;
+  border-radius: 99px;
+  padding: 8px 16px;
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+
+  box-shadow: 0px 0px 3.12px 1.17px #ffffff2e inset;
+  box-shadow: -0.78px 0.78px 1.95px 0px #ffffff26 inset;
+}
+
+.warning {
+  color: #fe9947;
+}

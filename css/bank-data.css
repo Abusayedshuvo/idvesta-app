@@ -1,0 +1,65 @@
+.bank-card {
+  background-color: #2b8fff0f;
+  border: 1px solid #ebecef1a;
+  border-radius: 16px;
+  padding-bottom: 12px;
+  border-radius: 16px;
+}
+
+.bank-card .card-head {
+  background-color: #2b8fff2b;
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.bank-card .card-head .icon-box {
+  background: #ffffff33;
+  border: 0.86px solid #ffffff0d;
+  border-radius: 6px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+}
+
+.bank-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bank-card ul li {
+  padding: 12px 16px;
+  color: #ffffff;
+  border-bottom: 0.8px dashed #ffffff4d;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bank-card ul li:last-child {
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+
+.bank-card .inner-card {
+  background-color: #ffffff0d;
+  border-radius: 10px;
+  padding: 8px;
+  text-align: center;
+}
+
+.bank-card .inner-card:hover {
+  outline: solid 1px #2b8fff;
+}
+
+.bank-card .inner-card img {
+  max-width: 30px;
+  margin-bottom: 12px;
+}

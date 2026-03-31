@@ -1,0 +1,31 @@
+.faq .accordion-item {
+  background-color: #ffffff0d;
+  box-shadow: 0px 2px 6px 0px #00000021;
+  border-radius: 12px;
+  padding: 20px;
+  border: 0;
+  margin-bottom: 14px;
+}
+
+.faq .accordion-item .accordion-header button {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+  box-shadow: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.faq .accordion-item .accordion-body {
+  padding: 0;
+  color: #dfe0e4;
+  font-size: 14px;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.accordion-button::after,
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../images/chevron-down.svg);
+}

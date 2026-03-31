@@ -1,0 +1,86 @@
+.red-card {
+  background: #ffffff1a;
+  border-radius: 24px;
+  padding: 24px;
+}
+
+.red-card .title {
+  color: #00ff7f;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.red-card .icon-box {
+  background-color: #f5f5f71a;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 99px;
+  color: #00ff7f;
+}
+
+.red-card .cor {
+  color: #00ff7f;
+}
+
+.red-card input {
+  background: #f5f6f71a;
+  border-radius: 8px;
+  padding: 16px;
+  color: #fff;
+  width: 100%;
+  border: 0;
+}
+
+.red-card .red-btn {
+  background-color: #00ff7f;
+  border-radius: 8px;
+  padding: 12px 12px;
+  color: #071431;
+  font-weight: 700;
+  width: 100%;
+  border: 0;
+}
+
+.red-card .desc {
+  color: #979ca8;
+  font-size: 8px;
+  margin-top: 8px;
+}
+
+/*  Referral Details  */
+
+.red-card .bar {
+  background-color: #ffffff33;
+  height: 10px;
+  width: 100%;
+  border-radius: 9px;
+}
+
+.red-card .bar .active {
+  background: #00ff7f;
+  height: 10px;
+  border-radius: 9px;
+}
+
+.red-card .card-two {
+  background: #ffffff0d;
+  border: 1px solid #ffffff0f;
+  border-radius: 16px;
+  padding: 12px;
+}
+
+.red-card .active {
+  color: #00ff7f;
+}
+
+.red-card .active .dot {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+  background-color: #00ff7f;
+}

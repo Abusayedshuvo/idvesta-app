@@ -1,0 +1,159 @@
+main.sign-up {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.sign-up img.logo {
+  max-width: 220px;
+  margin-top: 100px;
+}
+
+.sign-up .box {
+  border-top: solid 1px #2b8fff;
+  margin-top: 50px;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  padding: 44px 20px 44px 20px;
+}
+
+.box label {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.box input {
+  background-color: #ffffff05;
+  border-radius: 12px;
+  padding: 10px 14px 10px 14px;
+  border: solid 1px #4d5f88;
+  width: 100%;
+  color: #fff;
+  background-color: transparent;
+}
+
+.box input[type="email"],
+.box input[type="password"] {
+  padding-left: 45px;
+}
+.box .relative {
+  position: relative;
+}
+
+.box .relative i {
+  color: #dfe0e4;
+}
+
+.box .relative .email {
+  position: absolute;
+  left: 12px;
+  top: 44px;
+}
+
+.box .relative .lock {
+  position: absolute;
+  left: 12px;
+  top: 44px;
+}
+
+.box .relative .show-pass {
+  position: absolute;
+  right: 12px;
+  top: 48px;
+  color: #888e9c;
+  padding: 0;
+}
+
+.box input[type="checkbox"] {
+  width: 14px;
+  height: 14px;
+  border: solid 1.5px #f5f6f7;
+  border-radius: 3px;
+}
+
+.login-btn {
+  border-radius: 10px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  outline: solid 2px #126cd2;
+  height: 56px;
+  background: linear-gradient(
+    92.99deg,
+    #2b8fff 14.34%,
+    #56a6ff 22.07%,
+    #3695ff 29.79%
+  );
+  box-shadow: 0px 2px 4px 0px #ffeeee1a inset;
+  box-shadow: 2px 0px 10px 0px #ffffff1a inset;
+}
+
+.hr-one {
+  width: 130px;
+  height: 1px;
+  border: none;
+  background: linear-gradient(90deg, #141d27 0%, #efefef 100%);
+}
+
+.hr-two {
+  width: 130px;
+  height: 1px;
+  border: none;
+  background: linear-gradient(90deg, #141d27 0%, #efefef 100%);
+}
+
+/* new checkbox */
+
+.checkbox {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #b2b6bf;
+}
+
+.checkbox input {
+  display: none;
+}
+
+.check-box {
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  border: 2px solid #9d9aa4;
+  position: relative;
+}
+
+.checkbox input:checked + .check-box {
+  background: #2b8fff;
+  border: 2px solid #2b8fff;
+}
+
+.checkbox input:checked + .check-box::after {
+  content: "✓";
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.change-password .box input[type="password"] {
+  padding-left: 14px;
+}
+
+.change-password {
+  height: 100vh;
+  position: relative;
+}
+
+.change-password .bottom,
+.bank-data .bottom {
+  position: absolute;
+  bottom: 20px;
+  width: 90%;
+  left: auto;
+  right: auto;
+}

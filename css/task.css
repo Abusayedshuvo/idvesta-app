@@ -1,0 +1,74 @@
+.task-card {
+  background-color: #2b8fff1a;
+  border: 1px solid #ebecef1a;
+  border-radius: 16px;
+  padding-bottom: 12px;
+  border-radius: 16px;
+}
+
+.task-card .card-head {
+  background-color: #2b8fff1a;
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 16px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: conic-gradient(#08bb83 calc(var(--value) * 1%), #08bb8333 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.circle::before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #092643;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.circle span {
+  position: relative;
+  font-weight: 700;
+  color: #08bb83;
+}
+
+.task-card .price-box {
+  background: #ffffff0d;
+  border: 1px solid #ffffff0f;
+  border-radius: 16px;
+  padding: 10px 16px;
+  min-width: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 44px;
+  margin-right: 10px;
+  line-height: 20px;
+}
+
+.btn-lock {
+  background-color: #6a7283;
+  box-shadow: 2px 0px 10px 0px #ffffff1a inset;
+  border-radius: 10px;
+  padding: 8px 16px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: 0;
+  outline: solid 1px #6a7283;
+  outline-offset: 2px;
+  height: 44px;
+  white-space: nowrap;
+}
