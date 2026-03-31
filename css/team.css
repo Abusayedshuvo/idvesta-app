@@ -3,11 +3,19 @@
   border-radius: 12px;
   padding: 14px 10px;
   color: #fff;
+  position: relative;
   background: linear-gradient(
-    110.05deg,
-    rgba(255, 255, 255, 0.05) 1.98%,
-    rgba(7, 46, 89, 0.05) 75.81%
+    102.21deg,
+    #00152d 3.97%,
+    rgba(6, 116, 239, 0.5) 46.28%,
+    #00152d 88.59%
   );
+}
+
+.team .team-card img.bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
 }
 
 .team .qr img {
@@ -48,10 +56,15 @@
 }
 
 .commission {
-  background-color: #2b8fff;
-  border-radius: 8px;
-  padding: 4px 8px;
+  background-image: url(../images/commission-bg.png);
   text-align: center;
+  background-size: cover;
+  height: 35px;
+  width: 102px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .team-card3 {
@@ -65,4 +78,32 @@
   color: #ffffffcc;
   font-size: 12px;
   margin-bottom: 16px;
+}
+
+.login-btn {
+  border-radius: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff;
+  outline: solid 2px #126cd2;
+  height: 50px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    92.99deg,
+    #2b8fff 14.34%,
+    #56a6ff 22.07%,
+    #3695ff 29.79%
+  );
+  box-shadow: 0px 2px 4px 0px #ffeeee1a inset;
+  box-shadow: 2px 0px 10px 0px #ffffff1a inset;
+}
+
+.team-card3 img.member {
+  width: 24px;
+  height: 24px;
+  border-radius: 12px;
 }

@@ -29,3 +29,8 @@
 .accordion-button:not(.collapsed)::after {
   background-image: url(../images/chevron-down.svg);
 }
+
+.accordion {
+  z-index: 2;
+  position: relative;
+}

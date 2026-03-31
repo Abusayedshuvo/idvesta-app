@@ -82,9 +82,15 @@ main {
 .text-18 {
   font-size: 18px;
 }
+.text-20 {
+  font-size: 20px;
+}
 
 .text-green {
   color: #40ff8c;
+}
+.text-green2 {
+  color: #00ffb7;
 }
 
 .text-blue {
@@ -187,9 +193,9 @@ footer a {
   color: #c1c4cc;
 }
 
-.text-light3 {
+/* .text-light3 {
   color: #dfe0e4;
-}
+} */
 
 .relative {
   position: relative;
@@ -220,6 +226,7 @@ footer a {
   padding: 16px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 12px;
 }
 
