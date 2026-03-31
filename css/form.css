@@ -30,6 +30,8 @@ main.sign-up {
   width: 100%;
   color: #fff;
   background-color: transparent;
+  z-index: 2;
+  position: relative;
 }
 
 .box input[type="email"],
@@ -69,6 +71,7 @@ main.sign-up {
   height: 14px;
   border: solid 1.5px #f5f6f7;
   border-radius: 3px;
+
 }
 
 .login-btn {
