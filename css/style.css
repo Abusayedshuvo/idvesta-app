@@ -9,6 +9,9 @@ body {
   overflow-x: hidden;
   font-family: "Inter", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 
 main {
   max-width: 440px;
@@ -104,7 +107,6 @@ main {
   font-size: 14px;
   font-weight: 500;
   border-radius: 40px;
-  border: solid 1px #ffffff80;
   padding: 10px 24px 10px 24px;
   z-index: 1;
 }
@@ -180,6 +182,18 @@ footer a {
   gap: 4px;
 }
 
+footer a img.active {
+  display: none;
+}
+
+footer a.active img {
+  display: none;
+}
+
+footer a.active img.active {
+  display: inline-block;
+}
+
 .btn-trans {
   background-color: transparent;
   border: 0;
@@ -195,6 +209,10 @@ footer a {
 
 .text-light4 {
   color: #dfe0e4;
+}
+
+.gray300 {
+  color: #d1d5db;
 }
 
 .relative {

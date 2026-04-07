@@ -28,10 +28,16 @@ main.sign-up {
   padding: 10px 14px 10px 14px;
   border: solid 1px #4d5f88;
   width: 100%;
+  height: 50px;
   color: #fff;
   background-color: transparent;
   z-index: 2;
   position: relative;
+}
+
+.box input::placeholder {
+  color: #dfe0e4;
+  font-size: 14px;
 }
 
 .box input[type="email"],
@@ -49,13 +55,23 @@ main.sign-up {
 .box .relative .email {
   position: absolute;
   left: 12px;
-  top: 44px;
+  top: 48px;
 }
 
 .box .relative .lock {
   position: absolute;
   left: 12px;
-  top: 44px;
+  top: 46px;
+}
+
+.box .relative .fixed-number {
+  position: absolute;
+  left: 12px;
+  top: 46px;
+}
+
+.box .relative input.number {
+  padding-left: 78px;
 }
 
 .box .relative .show-pass {
@@ -174,4 +190,31 @@ main.sign-up {
   width: 56px;
   height: 56px;
   background-color: transparent;
+}
+
+.security-box {
+  border: solid 1px #4d5f88;
+  background-color: #ffffff05;
+  border-radius: 12px;
+  padding: 8px 12px;
+  height: 50px;
+}
+.sign-up {
+  background-image: url(../images/signup-bg.jpeg);
+}
+
+.left-bar {
+  background: linear-gradient(
+    173.42deg,
+    #2b8fff -21.08%,
+    #afd5ff 51.45%,
+    #2b8fff 123.98%
+  );
+  width: 4px;
+  height: 22px;
+  border-radius: 4px;
+  position: absolute;
+  top: 48px;
+  left: -2px;
+  z-index: 2;
 }

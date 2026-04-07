@@ -50,6 +50,15 @@
   margin-bottom: 0;
 }
 
+.card-one ul li a p.text-12 {
+  color: #b2b6bf;
+}
+
+.card-one ul li a p.text-14 {
+  color: #fff;
+  font-weight: 500;
+}
+
 .card-one .shape {
   width: 253px;
   height: 162px;
