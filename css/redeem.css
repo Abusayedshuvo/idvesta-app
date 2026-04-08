@@ -1,13 +1,14 @@
 .red-card {
-  background: #ffffff1a;
+  background: #051c37;
   border-radius: 24px;
   padding: 24px;
+  border: solid 0.5px #0a54a8;
 }
 
 .red-card .title {
-  color: #00ff7f;
+  color: #0ff5c0;
   font-size: 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .red-card .icon-box {
@@ -17,11 +18,11 @@
   line-height: 40px;
   text-align: center;
   border-radius: 99px;
-  color: #00ff7f;
+  color: #0ff5c0;
 }
 
 .red-card .cor {
-  color: #00ff7f;
+  color: #0ff5c0;
 }
 
 .red-card input {
@@ -34,35 +35,25 @@
 }
 
 .red-card .red-btn {
-  background-color: #00ff7f;
+  background: linear-gradient(90.61deg, #0cba92 0.52%, #18a484 100.09%);
   border-radius: 8px;
   padding: 12px 12px;
   color: #071431;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
   width: 100%;
   border: 0;
+  height: 48px;
 }
 
 .red-card .desc {
-  color: #979ca8;
-  font-size: 8px;
+  color: #ebecef;
+  font-size: 10px;
   margin-top: 8px;
 }
 
 /*  Referral Details  */
-
-.red-card .bar {
-  background-color: #ffffff33;
-  height: 10px;
-  width: 100%;
-  border-radius: 9px;
-}
-
-.red-card .bar .active {
-  background: #00ff7f;
-  height: 10px;
-  border-radius: 9px;
-}
 
 .red-card .card-two {
   background: #ffffff0d;
@@ -83,4 +74,84 @@
   margin-bottom: 2px;
   margin-right: 2px;
   background-color: #00ff7f;
+}
+
+.green {
+  color: #00d48a;
+}
+
+.referral-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.card-one {
+  background-color: #ffffff17;
+  border-radius: 22px;
+  padding: 10px;
+}
+
+.red-card p {
+  z-index: 1;
+}
+
+.red-card .card-two {
+  background: linear-gradient(
+    130.62deg,
+    #052140 28.75%,
+    rgba(6, 116, 239, 0.88) 116.87%
+  );
+  border-left: 2.2px solid #0c6dda;
+  border-radius: 16px;
+  padding: 12px;
+  position: relative;
+}
+
+.red-card .card-two img.bg {
+  position: absolute;
+}
+
+.referral-details .red-card {
+  position: relative;
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.red-card .top {
+  background-color: #2a8eff;
+  box-shadow: 4px 0px 6px 0px #fff8f833 inset;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 56px;
+  font-size: 8px;
+  color: #fff;
+  font-weight: 600;
+  padding: 4px 6px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.red-card img.user {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+}
+
+.left-bar {
+  background: linear-gradient(
+    173.42deg,
+    #2b8fff -21.08%,
+    #afd5ff 51.45%,
+    #2b8fff 123.98%
+  );
+  width: 4px;
+  height: 27px;
+  border-radius: 4px;
+  position: absolute;
+  top: 32px;
+  left: -2px;
+  z-index: 2;
 }
