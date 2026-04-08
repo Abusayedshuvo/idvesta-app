@@ -1,0 +1,44 @@
+.member-list .item {
+  background: linear-gradient(
+    91.94deg,
+    rgba(19, 66, 119, 0.2) 17.24%,
+    rgba(11, 45, 88, 0.2) 97.82%
+  );
+  border: solid 1px #134277;
+  border-radius: 12px;
+  padding: 16px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.member-list .item img {
+  width: 36px;
+  height: 36px;
+  border-radius: 36px;
+}
+
+.member-list .item p {
+  margin-bottom: 0;
+}
+
+.left-bar {
+  background: linear-gradient(
+    173.42deg,
+    #2b8fff -21.08%,
+    #afd5ff 51.45%,
+    #2b8fff 123.98%
+  );
+  width: 4px;
+  height: 27px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  left: -2px;
+  z-index: 2;
+}
