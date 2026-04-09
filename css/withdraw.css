@@ -1,0 +1,74 @@
+.withdraw-card {
+  background-color: #0067df0f;
+  border-radius: 16px;
+  padding: 24px 18px;
+  border: 0.4px solid #ffffff31;
+}
+
+.nav-tabs {
+  border: 0;
+  margin-bottom: 36px;
+}
+
+.nav-tabs li {
+  margin-right: 8px;
+}
+
+.nav-tabs li button {
+  background-color: #ffffff24;
+  border-radius: 10px !important;
+  padding: 8px;
+  color: #ebecef;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 0;
+  height: 38px;
+  min-width: 90px;
+  border: 0;
+}
+
+.nav-tabs .nav-link.active {
+  background: linear-gradient(90deg, #2f91ff 0%, #2580e6 100%);
+  color: #ffffff;
+  border: 0;
+}
+
+.with-card {
+  background-color: #021e3f;
+  border-radius: 16px;
+  padding: 16px;
+  border-width: 0.4px 0.4px 0.4px 4px;
+  border-style: solid;
+  border-color: #2b8fff;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+
+.with-card img.ovo {
+  width: 30px;
+  height: 30px;
+}
+
+.with-card .badge {
+  background: #ffffff17;
+  border-radius: 50px;
+  border: 0.3px solid #0d7f4129;
+  height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 3px 12px;
+  line-height: 100%;
+}
+
+.with-card .badge.success {
+  color: #2acd74;
+}
+
+.with-card .badge.pending {
+  color: #ff934b;
+}
+
+.with-card .badge.failed {
+  color: #ff6969;
+}
